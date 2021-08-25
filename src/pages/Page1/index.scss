@@ -1,0 +1,22 @@
+.container {
+  width: 400px;
+
+  & > div {
+    margin-bottom: 20px;
+  }
+}
+
+.itemContainer {
+  margin-left: 30px;
+}
+
+.dragImage {
+  cursor: move;
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
